@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Wisuda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<audio id="bgm" loop>
+    <source src="music/bg-music.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+window.addEventListener('click', function() {
+    const audio = document.getElementById('bgm');
+    audio.play();
+}, { once: true }); // hanya jalan sekali
+</script>
+
+
+
+<div class="container">
+    <header>
+        <h2>بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ</h2>
+        <h1>Graduation Invitation</h1>
+        <p class="subtitle">Dengan penuh rasa syukur kami mengundang Anda untuk menghadiri wisuda</p>
+    </header>
+
+    <section class="photo">
+        <img src="img/fotowisuda1.jpg" alt="Foto Wisudawan">
+        <h2>Firstama Yusuf Noor S.Tr.T</h2>
+        <!-- <p class="degree">Sarjana Teknik Otomasi</p> -->
+    </section>
+
+    <section class="details">
+        <p><strong>Date:</strong> 11 October 2025</p>
+        <p><strong>Time:</strong> 09:00 WIB (Kemungkinan Ngaret)</p>
+        <p><strong>Location:</strong> 📍Politeknik Perkapalan Negeri Surabaya</p>
+    </section>
+
+    <section class="countdown">
+        <h3>Menuju Hari Wisuda</h3>
+        <div id="timer"></div>
+    </section>
+
+    <section class="map">
+    <h3>Location</h3>
+    <a href="https://maps.app.goo.gl/yTsMpBfCmWrxYk1c8" target="_blank">
+        <img src="img/maps-preview.jpg" alt="Lokasi Wisuda" class="map-image">
+    </a>
+    </section>
+
+
+
+    <footer>
+        <!-- <p>Terima kasih atas do'a dan dukungannya ❤️</p> -->
+        <p>Thank you for your prayers and support ❤️</p>
+        <p>made by pirstut @2025</p>
+    </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
