@@ -19,7 +19,7 @@ body::before {
 
 header {
     padding: 10px 20px;
-    border-bottom: 3px solid gold;
+/*     border-bottom: 3px solid gold; */
     position: relative;
     top: -10px; /* geser ke atas */
 }
@@ -65,6 +65,10 @@ header h1 {
     border-radius: 10px;
     width: 90%;
     max-width: 400px;
+}
+
+.details p {
+    margin: 2px 0; /* rapat sekali */
 }
 
 .countdown {
@@ -142,5 +146,6 @@ footer {
   display: block;
   margin: 0 auto;     /* center */
 }
+
 
 
